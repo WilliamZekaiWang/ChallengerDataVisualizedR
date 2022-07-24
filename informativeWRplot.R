@@ -5,7 +5,7 @@ informativeWRplot <- function(){
           mode = "markers",  
           x = df$list_of_wr,
           y = df$list_of_games,
-          name = paste("Challenger Player"),
+          name = paste("Challenger Player")
   )%>%
     add_trace(data = df, 
               y = line$fitted.values, 
